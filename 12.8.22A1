@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+
+{
+	int i,j;
+	char ch='A';
+	for(i=1;i<=5;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			printf("%2c",ch);
+			ch++;
+		}
+		printf("\n");
+	}
+	return 0;
+}
+---------------
+OUTPUT:-1
+---------------
+ A
+ B C
+ D E F
+ G H I J
+ K L M N O
+
+--------------------------------
+Process exited after 0.02433 seconds with return value 0
+Press any key to continue . . .
